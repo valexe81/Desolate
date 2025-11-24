@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
+body{ /*how anything with a body tag should be styled (in this case, THE PAGE)*/
+    margin: 0;
+    z-index: 0;
+    font-family:'Merriweather','Arial';
+}
+
+div.content{
+    position:relative;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin:0;
+    z-index: 1;
+
+}
+
+img.bg{
+    width:100%;
+    z-index: 2;
+}
+
+img.clickables{
+    position: absolute;
+    z-index:3;
+}
+
+img.clickables:hover{
+    cursor:help;
+}
+
+#wardrobe{
+    top:6.5%;
+    left:1.35%;
+    width:32.2%;
+}
+
+#boxes{
+    top:53.55%;
+    left:1.5%;
+    width:25%;
+}
+
+#computer{
+    top:19.3%;
+    left:63.6%;
+    width:10.6%;
+}
+
+#tshirt{
+    top:53.59%;
+    left:88.2%;
+    width:11.5%;
+}
+
+#secondpage{
+    top:44.74%;
+    left:66.45%;
+    width:18.4%;
+}
+
+#nvn{
+    top:94%;
+    left:42%;
+    width:18.4%;
+}
+
+#poster{
+    top:9.5%;
+    left:73%;
+    width:10%
+}
