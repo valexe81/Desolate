@@ -1,0 +1,23 @@
+
+div.wardrobescroll{
+
+    position:absolute;
+    display:flex;
+    width:100%;
+    left:0%;
+    height:80%;
+    top:15.7%;
+    margin-bottom:5%;
+    flex-wrap: nowrap;
+    overflow: auto;
+    transform: rotate(180deg);
+    direction: rtl;
+    scrollbar-color: rgb(203, 203, 203) rgba(159, 22, 22, 0);
+}
+
+div.merch{
+    height:100%;
+    width:50%;
+    flex: 0 0 auto;
+    transform: rotate(180deg);
+}
